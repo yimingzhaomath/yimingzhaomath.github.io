@@ -7,6 +7,19 @@ author_profile: true
 
 Here is a list of talks that I have given in the past:
 
+- 2023 Jun. INdAM Meeting “Convex Geometry - Analytic Aspects” (Cortona, Italy).  The Minkowski problem in Gaussian probability space. (main speaker)
+- 2023 Jun. Summer Meeting of Canadian Mathematical Society. The Minkowski problem in Gaussian probability space.
+- 2023 May. Chinese Academy of Sciences (virtual). The Minkowski problem in Gaussian probability space.
+- 2022 Dec. Shanghai University (virtual). Dual curvature measures for log-concave functions.
+- 2022 Dec. Shanxi Normal University (virtual). Dual curvature measures for log-concave functions.
+- 2022 Nov. Cornell University. Dual curvature measures for log-concave functions.
+- 2022 Sep. ICERM. Dual curvature measures for log-concave functions.
+- 2021 May. Jilin Normal University (virtual). Mass transport problem on the unit sphere via Gauss map.
+- 2021 Mar. Syracuse University (virtual). Recovering the shapes of convex bodies.
+- 2021 Feb. Florida International University (virtual). Recovering the shapes of convex bodies.
+- 2021 Feb. University of Georgia (virtual). Recovering the shapes of convex bodies.
+- 2021 Jan. UC San Diego (virtual). Mass transport problem on the unit sphere via Gauss map.
+- 2021 Jan. UC Santa Cruz (virtual). Recovering the shapes of convex bodies.
 - 2020 Oct. AMS special session (virtual), The Minkowski problem in Gaussian probability space.
 - 2020 Aug. University of Connecticut, Reconstruction of convex bodies via Gauss map.
 - 2019 Jun. International Congress of Chinese Mathematicians, 45-min talk, The dual Minkowski problem for $o$-symmetric convex bodies.

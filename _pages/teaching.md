@@ -4,13 +4,57 @@ excerpt: "Teaching"
 permalink: /teaching/
 author_profile: true
 ---
+at Syracuse University
+
+Fall 2023:
+
+MAT-412 Introduction to Real Analysis I
+
+<hr>
+
+Spring 2023:
+
+MAT-602 Fundamentals of Analysis II
+
+<hr>
+
+Fall 2022:
+
+MAT-512 Introduction to Real Analysis II
+
+<hr>
+
+Spring 2022: 
+
+MAT-296 Calculus II
+
+<hr>
+
+Fall 2021: 
+
+MAT-296 Calculus II
+
+<hr>
+
+at MIT
+
+Spring 2021:
+
+18.02 Calculus recitation
+
+<hr>
+
 Fall 2020:
 
 18.100Q Communication Intensive Real Analysis
 
+<hr>
+
 Spring 2020:
 
 18.03 Differential Equations recitation
+
+<hr>
 
 Fall 2019:
 
