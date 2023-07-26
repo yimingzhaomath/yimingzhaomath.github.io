@@ -10,7 +10,9 @@ redirect_from:
 
 I am an Assistant Professor at Syracuse University. 
 
-I primarily work in convex geometry. I am particularly interested in solving Monge-Ampère type equations that come from a geometric background. I am also interested in sharp isoperimetric inequalities (geometric or functional). I am partially supported by a standard NSF grant: DMS-2002778, DMS-2132330 ($159,159.00, 06/2020---05/2023).
+I primarily work in convex geometry. I am particularly interested in solving Monge-Ampère type equations that come from a geometric background. I am also interested in sharp isoperimetric inequalities (geometric or functional), and most recently the interplay between isoperimetric inequalities and Monge-Ampère type equations. 
+
+I am partially supported by a standard NSF grant: DMS-2132330 (transferred from DMS-2002778) 06/2020---05/2024.
 
 Before coming to SU, I was a C.L.E. Moore Instructor at Massachusetts Institute of Technology. My mentor was [Professor David Jerison](https://math.mit.edu/directory/profile.php?pid=112).
 
