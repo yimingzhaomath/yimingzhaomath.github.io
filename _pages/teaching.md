@@ -34,6 +34,8 @@ Fall 2021:
 
 MAT-296 Calculus II
 
+<hr>
+
 at MIT
 
 Spring 2021:
