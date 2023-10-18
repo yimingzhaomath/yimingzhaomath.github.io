@@ -17,8 +17,8 @@ This page contains a list of peer-reviewed papers and preprints. It is updated p
 
 ## Publications
 - (with N. Fang, D. Ye and Z. Zhang) The dual Orlicz curvature measures for log-concave functions and their related Minkowski problems. *submitted*. [arXiv](https://arxiv.org/pdf/2309.12260.pdf)
-- (with Y. Huang, J. Liu and D. Xi) Dual curvature measures for log-concave functions. *submitted*. [arXiv](https://arxiv.org/pdf/2210.02359.pdf)
-- (with S. Chen, S. Hu and W. Liu) On the planar Gaussian-Minkowski problem. *Adv. Math.*, accepted, 2023. [arXiv](https://arxiv.org/pdf/2303.17389.pdf)
+- (with Y. Huang, J. Liu and D. Xi) Dual curvature measures for log-concave functions. *J. Differential Geom.*, accepted, 2023. [arXiv](https://arxiv.org/pdf/2210.02359.pdf)
+- (with S. Chen, S. Hu and W. Liu) On the planar Gaussian-Minkowski problem. *Adv. Math.*, in press, 2023. [arXiv](https://arxiv.org/pdf/2303.17389.pdf)
 - (with L. Guo and D. Xi) The $L_p$ chord Minkowski problem in a critical interval. *Math. Ann.*, 2023.  [link](https://link.springer.com/article/10.1007/s00208-023-02721-8)
 - (with D. Xi, D. Yang and G. Zhang) The $L_p$ chord Minkowski problem. *Advanced Nonlinear Studies*, 23 (1): Paper No. 20220041, 22, 2023. [link](https://www.degruyter.com/document/doi/10.1515/ans-2022-0041/html)
 - (with D. Xi) General affine invariances related to Mahler volume. *International Mathematics Research Notices. IMRN*, no. 18: 14151--14180, 2022. [link](https://academic.oup.com/imrn/article/2022/18/14151/6291056?login=true)  
