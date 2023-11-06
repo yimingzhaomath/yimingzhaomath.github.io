@@ -24,7 +24,7 @@ This page contains a list of peer-reviewed papers and preprints. It is updated p
 - (with D. Xi) General affine invariances related to Mahler volume. *International Mathematics Research Notices. IMRN*, no. 18: 14151--14180, 2022. [link](https://academic.oup.com/imrn/article/2022/18/14151/6291056?login=true)  
 - (with Y. Huang and D. Xi) The Minkowski problem in Gaussian probability space. *Advances in Mathematics*, 385: Paper No. 107769, 36, 2021 [pdf](/files/GaussianMP.pdf)
 - (with K. Böröczky, E. Lutwak, D. Yang, and G. Zhang) The Gauss image problem. *Communications on Pure and Applied Mathematics*, 73: 1406-1452, 2020. [pdf](https://onlinelibrary.wiley.com/doi/epdf/10.1002/cpa.21898)
-- (with K. Böröczky, E. Lutwak, D. Yang, and G. Zhang) The dual Minkowski sproblem for symmetric convex bodies. *Adv. Math.* 356: 106805, 2019. [pdf](/files/evendMP.pdf)
+- (with K. Böröczky, E. Lutwak, D. Yang, and G. Zhang) The dual Minkowski problem for symmetric convex bodies. *Adv. Math.* 356: 106805, 2019. [pdf](/files/evendMP.pdf)
 - (with C. Chen and Y. Huang) Smooth solutions to the $L_p$ dual Minkowski problem. *Math. Ann.* 373 (3-4):953-976, 2019. [pdf](/files/smoothLpdMP.pdf)
 - The $L_p$ Aleksandrov problem for origin-symmetric polytopes. *Proc. Amer. Math. Soc.* 147 (10):4477-4492, 2019. [pdf](/files/LpAleksandrov.pdf)
 - (with Y. Huang) On the $L_p$ dual Minkowski problem. *Adv. Math.* 332: 57-84, 2018. [pdf](/files/LpdMP.pdf)
