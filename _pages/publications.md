@@ -19,8 +19,11 @@ I am supported by the U.S. National Science Foundation:
 This page contains a list of peer-reviewed papers and preprints. It is updated periodically. You can also find my articles on <u><a href="https://scholar.google.com/citations?user=ioEjpX4AAAAJ&hl=en">my Google Scholar profile</a></u>, or on <u><a href="https://mathscinet.ams.org/mathscinet/MRAuthorID/1164900">MathSciNet</a></u> (subscription required).
 
 ## Publications
-- (with N. Fang, D. Ye and Z. Zhang) The dual Orlicz curvature measures for log-concave functions and their related Minkowski problems. *submitted*. [arXiv](https://arxiv.org/pdf/2309.12260.pdf)
-- (with Y. Huang, J. Liu and D. Xi) Dual curvature measures for log-concave functions. *J. Differential Geom.*, accepted, 2023. [arXiv](https://arxiv.org/pdf/2210.02359.pdf)
+- (with D. Xi) Fractional affine area meaasures. *submitted in 2024*
+- (with V. Semenov) The growth rate of surface area measure for noncompact convex sets with prescribed asymptotic cone. *Transactions of the American Mathematical Society*, 378 (11): 7945--7975, 2025. [arXiv](https://arxiv.org/abs/2409.18699v2)
+- (with D. Langharst and M. Roysdon) On the $m$-th order affine Pólya-Szegö principle. *Journal of Geometric Analysis, 35 (7): Paper No. 205, 32pp, 2025. [arXiv](https://arxiv.org/abs/2409.02232)
+- (with N. Fang, D. Ye and Z. Zhang) The dual Orlicz curvature measures for log-concave functions and their related Minkowski problems. *Calculus of Variations and Partial Differential Equations*, 64: Paper No. 44, 31pp, 2025. [arXiv](https://arxiv.org/pdf/2309.12260.pdf)
+- (with Y. Huang, J. Liu and D. Xi) Dual curvature measures for log-concave functions. *J. Differential Geom.*, 128 (2): 815-860, 2024 [arXiv](https://arxiv.org/pdf/2210.02359.pdf)
 - (with S. Chen, S. Hu and W. Liu) On the planar Gaussian-Minkowski problem. *Adv. Math.*, Volume 435, Part A: 109351, 2023. [link](https://www.sciencedirect.com/science/article/pii/S0001870823004942)
 - (with L. Guo and D. Xi) The $L_p$ chord Minkowski problem in a critical interval. *Math. Ann.*, 2023.  [link](https://link.springer.com/article/10.1007/s00208-023-02721-8)
 - (with D. Xi, D. Yang and G. Zhang) The $L_p$ chord Minkowski problem. *Advanced Nonlinear Studies*, 23 (1): Paper No. 20220041, 22, 2023. [link](https://www.degruyter.com/document/doi/10.1515/ans-2022-0041/html)

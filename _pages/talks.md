@@ -7,7 +7,12 @@ author_profile: true
 
 Here is a list of talks that I have given in the past:
 
-- 2023 Jun. INdAM Meeting “Convex Geometry - Analytic Aspects” (Cortona, Italy).  The Minkowski problem in Gaussian probability space. (main speaker)
+- 2025 Oct. AMS Fall Central Sectional Meeting at St. Louis. Affine area measures.
+- 2024 Dec. MFO–Oberwolfach workshop "Convex Geometry and its Appli-cations" at Oberwolfach, Germany. Growth rate of surface area measures for C-asymptotic sets.
+- 2024 May. Convex Geometry and Related PDEs conference at Changsha, China. On the geometry of log-concave functions.
+- 2023 Dec. Winter meeting of Canadian Mathematical Society at Montreal. The Minkowski problem in Gaussian probability space.
+- 2023 Dec. Beijing Technology and Business University (virtual). The Minkowski problem in Gaussian probability space.
+- 2023 Jun. INdAM Meeting "Convex Geometry - Analytic Aspects" (Cortona, Italy).  The Minkowski problem in Gaussian probability space. (main speaker)
 - 2023 Jun. Summer Meeting of Canadian Mathematical Society. The Minkowski problem in Gaussian probability space.
 - 2023 May. Chinese Academy of Sciences (virtual). The Minkowski problem in Gaussian probability space.
 - 2022 Dec. Shanghai University (virtual). Dual curvature measures for log-concave functions.

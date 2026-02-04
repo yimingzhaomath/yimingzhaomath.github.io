@@ -8,4 +8,4 @@ redirect_from:
 ---
 {% include base_path %}
 
-A copy of my most recent CV can also be found <a href="/files/CV.pdf" target="_blank"><u>here</u></a>. Last updated: 11/2/2023.
+A copy of my most recent CV can also be found <a href="/files/CV.pdf" target="_blank"><u>here</u></a>. Last updated: 2/4/2026.

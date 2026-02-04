@@ -6,6 +6,34 @@ author_profile: true
 ---
 at Syracuse University
 
+Spring 2026:
+
+MAT-602 Fundamentals of Analysis II
+
+<hr>
+
+Fall 2025:
+
+MAT-296 Calculus II
+
+MAT-512 Introduction to Real Analysis II
+
+<hr>
+
+Spring 2025:
+
+MAT-412 Introduction to Real Analysis I
+
+MAT-800 Topics in Analysis: an introduction to convex geometric analysis
+
+<hr>
+
+Spring 2024:
+
+MAT-602 Fundamentals of Analysis II
+
+<hr>
+
 Fall 2023:
 
 MAT-412 Introduction to Real Analysis I
