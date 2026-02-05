@@ -18,7 +18,7 @@ I am supported by the U.S. National Science Foundation:
 * NSF DMS-2132330 (transferred from DMS-2002778), 06/2020---05/2024
 
 
-Before coming to SU, I was a C.L.E. Moore Instructor at Massachusetts Institute of Technology. My mentor was [Professor David Jerison](https://math.mit.edu/directory/profile.php?pid=112).
+Before coming to SU, I was a C.L.E. Moore Instructor at Massachusetts Institute of Technology. My mentor was [Professor David Jerison](https://math.mit.edu/directory/profile.html?pid=112).
 
 I was briefly at St. John's University as a full-time contract faculty at the rank of Assistant Professor.
 
