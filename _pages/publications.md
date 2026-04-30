@@ -7,8 +7,6 @@ author_profile: true
 
 I work in convex geometry. I am interested in the existence and uniqueness of solutions to a variety of Monge-Ampère type equations that come from the study of convex bodies. Solutions to these PDEs lead to the reconstruction of convex bodies when different types of geometric measures are prescribed. In convex geometry, they are known as Minkowski-type problems.
 
-The techniques I use include calculus of variation, geometric flow, method of continuity, and degree theory. 
-
 I am also interested in sharp isoperimetric inequalities (both affine and non-affine, geometric and functional).
 
 I am supported by the U.S. National Science Foundation:
@@ -19,7 +17,8 @@ I am supported by the U.S. National Science Foundation:
 This page contains a list of peer-reviewed papers and preprints. It is updated periodically. You can also find my articles on <u><a href="https://scholar.google.com/citations?user=ioEjpX4AAAAJ&hl=en">my Google Scholar profile</a></u>, or on <u><a href="https://mathscinet.ams.org/mathscinet/MRAuthorID/1164900">MathSciNet</a></u> (subscription required).
 
 ## Publications
-- (with D. Xi) Fractional affine area meaasures. *submitted in 2024*
+- (with D. Xi) Geometric measures for radial Minkowski homomorphisms and Brunn-Minkowski-type inequalities, *submitted in 2026*
+- (with D. Xi) Fractional affine area measures. *submitted in 2024*
 - (with V. Semenov) The growth rate of surface area measure for noncompact convex sets with prescribed asymptotic cone. *Transactions of the American Mathematical Society*, 378 (11): 7945--7975, 2025. [arXiv](https://arxiv.org/abs/2409.18699v2)
 - (with D. Langharst and M. Roysdon) On the $m$-th order affine Pólya-Szegö principle. *Journal of Geometric Analysis*, 35 (7): Paper No. 205, 32pp, 2025. [arXiv](https://arxiv.org/abs/2409.02232)
 - (with N. Fang, D. Ye and Z. Zhang) The dual Orlicz curvature measures for log-concave functions and their related Minkowski problems. *Calculus of Variations and Partial Differential Equations*, 64: Paper No. 44, 31pp, 2025. [arXiv](https://arxiv.org/pdf/2309.12260.pdf)
