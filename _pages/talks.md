@@ -7,7 +7,7 @@ author_profile: true
 
 Here is a list of talks that I have given in the past:
 
-- 2026 Apr. The online Geometric and Functional Inequalities and Applications seminar: L$(n)$-invariant isoperimetric and Minkowski problems.
+- 2026 Apr. The online Geometric and Functional Inequalities and Applications seminar: SL$(n)$-invariant isoperimetric and Minkowski problems.
 - 2026 Mar. Binghamton University, Analysis Seminar: SL$(n)$-invariant isoperimetric and Minkowski problems.
 - 2025 Oct. AMS Fall Central Sectional Meeting at St. Louis. Affine area measures.
 - 2024 Dec. MFO–Oberwolfach workshop "Convex Geometry and its Appli-cations" at Oberwolfach, Germany. Growth rate of surface area measures for C-asymptotic sets.
