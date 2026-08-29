@@ -4,10 +4,17 @@
 \usepackage{amsthm}
 \usepackage{amscd}
 \usepackage{amsfonts}
+\usepackage[scaled=1.08]{newtxtext}
+\usepackage[scaled=1.08]{newtxmath}
 \usepackage{graphicx}%
 \usepackage{fancyhdr}
-\usepackage[hmarginratio={1:1},tmargin=2.5cm, scale = 0.8]{geometry}
-\usepackage{hyperref} 
+\usepackage[margin=1in]{geometry}
+\usepackage{tabularx}
+\usepackage{longtable}
+\usepackage{enumitem}
+\usepackage{needspace}
+\usepackage{hyperref}
+\setlength{\emergencystretch}{2em}
 \theoremstyle{plain} \numberwithin{equation}{section}
 \newtheorem{theorem}{Theorem}[section]
 \newtheorem{corollary}[theorem]{Corollary}
@@ -23,270 +30,304 @@
 
 
 
-\pagestyle{fancy}\lhead{Curriculum Vitae} 
-\chead{{\large{\bf Yiming Zhao}}} \rhead{\today}\lfoot{} \rfoot{\bf \thepage} \cfoot{}
+\pagestyle{fancy}
+\fancyhf{}
+\rfoot{\thepage}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{2.5pt}
+\linespread{1.08}
+\renewcommand{\arraystretch}{1.08}
+\setlist[itemize]{leftmargin=1.55em,itemsep=3pt,topsep=5pt,parsep=1.5pt,partopsep=1pt}
+\setlist[enumerate]{leftmargin=2em,itemsep=3pt,topsep=5pt,parsep=1.5pt,partopsep=1pt}
+\setlength{\LTpre}{5pt}
+\setlength{\LTpost}{5pt}
+\raggedbottom
+
+\newcommand{\cvsection}[1]{%
+  \Needspace{6\baselineskip}%
+  \par\addvspace{0.8\baselineskip}%
+  \noindent\underline{#1}\par\nobreak
+  \vspace{0.3\baselineskip}%
+}
+
+\newcommand{\cvsubsection}[1]{%
+  \Needspace{4\baselineskip}%
+  \par\addvspace{0.45\baselineskip}%
+  \noindent #1\par\nobreak
+  \vspace{0.15\baselineskip}%
+}
 
 \newcounter{list}
+
+\newcommand{\talk}[2]{%
+  \textbullet & #1 & #2\tabularnewline[3pt]
+}
 
 
 \begin{document}
 
-%\begin{center}
-%{\large {\bf \ CURRICULUM VITAE for Name} }
-%\end{center}
+\begin{center}
+{\large\bfseries\underline{Curriculum Vitae}}
+\end{center}
+\vspace{-0.45\baselineskip}
 
-\large{\textbf{Contact Information}}
+{\large\bfseries Yiming Zhao}
 
-\medskip
-
-\begin{tabular}{ll}
+\begin{tabular}{@{}p{0.85in}l@{}}
 
 Address: & Department of Mathematics\\
   & Syracuse University\\
   & 130 Sims Dr.\\
-  & 215 Carnegie library \\
+  & 215 Carnegie Library \\
   & Syracuse, NY 13244\\
 E-mail: & \href{mailto:yzhao197@syr.edu}{yzhao197@syr.edu}\\
 URL: & \href{https://www.yimingzhao.net}{yimingzhao.net}\\
 
 \end{tabular}
 
-\bigskip
+\cvsection{Education}
 
-{\large\textbf{Education}}
-\medskip
-
-\begin{tabular}{ll}
+\begin{tabular}{@{}p{0.95in}l@{}}
 2012--2017 & \textbf{Ph.D. in Mathematics}, New York University\\
 & Adviser: Erwin Lutwak, Deane Yang, and Gaoyong Zhang\\
-& Thesis: Geometric measures, affine invariants, \\
-&\phantom{qweqwe}and their characterizations\\
+& Thesis: Geometric measures, affine invariants, and their characterizations\\
 2007--2011 & \textbf{B.S. in Mathematics}, Shanghai University\\
-\end{tabular} \medskip
+\end{tabular}
 
 
-{\large\textbf{Research Interests}\\} \medskip
-\begin{tabular}{lll}
-&&convex geometry and related partial differential equations
-\end{tabular} \medskip
+\cvsection{Research Interests}
+Convex geometry, geometric analysis, and partial differential equations
 
-{\large\textbf{Employment}}
-\medskip
+\cvsection{Employment}
 
-\begin{tabular}{ll}
-2021 -- & Assistant Professor\\
-&\phantom{qwewae} at Syracuse University\\
-
-2018 --	 2021	& C.L.E. Moore Instructor\\
-&\phantom{qwewae} at Massachusetts Institute of Technology\\
+\begin{tabular}{@{}p{1.08in}l@{}}
+2021--present & Assistant Professor, Syracuse University\\
+2018--2021 & C.L.E. Moore Instructor, Massachusetts Institute of Technology\\
 & Mentor: David Jerison\\
-2017 -- 2018 &  Assistant Professor (Contract Faculty)\\
- &\phantom{qwewae} at St. John's University\\
-Summer 2017 & Research Associates \& Adjunct Assistant Professor\\
-&\phantom{qwewae} at New York University\\
-\end{tabular} \medskip
+2017--2018 & Assistant Professor (non-tenure track), St. John's University\\
+Summer 2017 & Postdoctoral Associate \& Adjunct Instructor, New York University\\
+\end{tabular}
 
-{\large\textbf{Grant}}
-
-
+\cvsection{Grants}
 \begin{itemize}
-		\item NSF CAREER Grant DMS-2337630 (sole PI), 06/2024 --- 05/2029, \$434,697.00
-		\item NSF Grant DMS-2002778, DMS-2132330 (sole PI), 06/2020 --- 05/2024, \$159,159.00
+		\item NSF CAREER Grant DMS-2337630 (sole PI): \emph{Isoperimetric and Minkowski Problems in Convex Geometric Analysis}, 06/2024--05/2029, \$434,697
+		\item NSF Grant DMS-2002778, DMS-2132330 (sole PI): Convex body shape recovery via geometric measures and inequalities, 06/2020--05/2024, \$159,159
 \end{itemize}
 
-{\large\textbf{Publications and Preprints}}
-
-It is important to note that the convention in pure math, as documented by the American Mathematical Society, is to list authors in alphabetical order.
+\cvsection{Publications and Preprints}
 \begin{enumerate}
-\item (with D. Xi) Geometric measures for radial Minkowski homomorphisms and Brunn-Minkowski-type inequalities, submitted to \emph{Journal f\"ur die reine und angewandte Mathematik}.
-\item (with D. Xi) Fractional affine area measures, \emph{Journal of the European Mathematical Society}, accepted for publication.
+\item (with D. Xi) Geometric measures for radial Minkowski homomorphisms and Brunn-Minkowski-type inequalities, submitted to \emph{Journal f\"ur die Reine und Angewandte Mathematik (Crelle's Journal)}; accessible from: \url{https://www.yimingzhao.net/files/gmfrmh.pdf}.
+\item (with D. Xi) Fractional affine area measures, \emph{Journal of the European Mathematical Society}, accepted for publication; accessible from: \url{https://www.yimingzhao.net/files/faam.pdf}.
 \item (with V. Semenov) The growth rate of surface area measure for noncompact convex sets with prescribed asymptotic cone, \emph{Transactions of the American Mathematical Society}, 378 (11): 7945-7975, 2025.
 \item (with D. Langharst and M. Roysdon) On the $m$-th order affine P\'olya-Szeg\"o principle, \emph{Journal of Geometric Analysis}, 35 (7): Paper No. 205, 32pp, 2025.
 \item (with N. Fang, D. Ye, and Z. Zhang) Dual Orlicz curvature measures for log-concave functions and their Minkowski problems, \emph{Calculus of Variations and Partial Differential Equations}, 64: Paper No. 44, 31pp, 2025.
 \item (with Y. Huang, J. Liu, and D. Xi) Dual curvature measures for log-concave functions, \emph{Journal of Differential Geometry}, 128 (2): 815-860, 2024.
 \item (with L. Guo and D. Xi) The $L_p$ chord Minkowski problem in a critical interval. \emph{Mathematische Annalen}, 389: 3123-3162, 2024.
-\item (with S. Chen, S. Hu, and W. Liu) On the planar Gaussian-Minkowski problem, \emph{Advances in Mathematics}, Volume 435, Part A: 109351, 32pp, 2023.
-\item (with D. Xi, D. Yang, and G. Zhang) The $L_p$ chord Minkowski problem, \emph{Advanced Nonlinear Studies}, 23: pp. 20220041, 2023.
-\item (with D. Xi) General affine invariances related to Mahler volume, \textit{International Mathematics Research Notices}, 2022: 14151-14180, 2022. 
+\item (with S. Chen, S. Hu, and W. Liu) On the planar Gaussian-Minkowski problem, \emph{Advances in Mathematics}, Volume 435, Part A: Paper No. 109351, 32pp, 2023.
+\item (with D. Xi, D. Yang, and G. Zhang) The $L_p$ chord Minkowski problem, \emph{Advanced Nonlinear Studies}, 23 (1): Paper No. 20220041, 22pp, 2023.
+\item (with D. Xi) General affine invariances related to Mahler volume, \textit{International Mathematics Research Notices}, 2022 (18): 14151-14180, 2022.
 \item (with Y. Huang and D. Xi) The Minkowski problem in Gaussian probability space, \textit{Advances in Mathematics}, 385: Paper No. 107769, 36 pp, 2021.
 \item (with K. B\"{o}r\"{o}czky, E. Lutwak, D. Yang, and G. Zhang) The Gauss image problem, \textit{Communications on Pure and Applied Mathematics}, 73: 1406-1452, 2020.
-\item (with K. B\"{o}r\"{o}czky, E. Lutwak, D. Yang, and G. Zhang) The dual Minkowski problem for symmetric convex bodies, \textit{Advances in Mathematics}, 356:106805, 2019.
+\item (with K. B\"{o}r\"{o}czky, E. Lutwak, D. Yang, and G. Zhang) The dual Minkowski problem for symmetric convex bodies, \textit{Advances in Mathematics}, 356: Paper No. 106805, 30 pages, 2019.
 \item The $L_p$ Aleksandrov problem for origin-symmetric polytopes, \textit{Proceedings of the American Mathematical Society}, 147 (10): 4477-4492, 2019.
-\item (with C. Chen, and Y. Huang) Smooth solutions to the $L_p$-dual Minkowski problem, \textit{Mathematische Annalen}, 373 (3-4):953-976, 2019.
-\item (with Y. Huang) On the $L_p$ dual Minkowski problem, \textit{Advances in Mathematics}, 332: 57-84, 2018.
- 
+\item (with C. Chen and Y. Huang) Smooth solutions to the $L_p$-dual Minkowski problem, \textit{Mathematische Annalen}, 373 (3-4):953-976, 2019.
+
+
 \item Existence of solutions to the even dual Minkowski problem. \textit{Journal of Differential Geometry}, 110 (3): 543-572, 2018.
+
+\item (with Y. Huang) On the $L_p$ dual Minkowski problem, \textit{Advances in Mathematics}, 332: 57-84, 2018.
+
+\item Geometric measures, affine invariants, and their characterizations. Ph.D. dissertation, New York University, 127pp, 2017.
 
 \item The dual {M}inkowski problem for negative indices. \textit{Calculus of Variations and Partial Differential Equations}, 56 (2):18, 2017.
 
 \item On {$L_p$}-affine surface area and curvature measures. \textit{International Mathematics Research Notices}, (5): 1387--1423, 2016.
 
-
-
 \end{enumerate}
 
-{\large\textbf{Invited Talks}}
+\cvsection{Invited Talks}
+\begin{longtable}{
+@{\hspace{0.10in}}
+>{\centering\arraybackslash}p{0.15in}
+@{\hspace{0.10in}}
+>{\raggedright\arraybackslash}p{0.85in}
+@{\hspace{0.15in}}
+>{\raggedright\arraybackslash}p{\dimexpr\linewidth-1.35in\relax}
+@{}
+}
+\talk{2026 Jun.}{Brunn--Minkowski Theories conference in Shanghai, China: \emph{Minkowski problems inspired by Lutwak--Yang--Zhang}.}
+\talk{2026 Apr.}{The online Geometric and Functional Inequalities and Applications seminar: \emph{SL$(n)$-invariant isoperimetric and Minkowski problems}.}
+\talk{2026 Mar.}{Binghamton University, Analysis Seminar: \emph{SL$(n)$-invariant isoperimetric and Minkowski problems}.}
+\talk{2025 Oct.}{AMS Fall Central Sectional Meeting ``Convexity, Probability, and Analysis'' in St. Louis: \emph{Affine area measures}.}
+\talk{2024 Dec.}{MFO--Oberwolfach workshop ``Convex Geometry and its Applications'' at Oberwolfach, Germany: \emph{Growth rate of surface area measures for $C$-asymptotic sets}.}
+\talk{2024 May.}{Convex Geometry and Related PDEs conference in Changsha, China: \emph{On the geometry of log-concave functions}.}
+\talk{2023 Dec.}{Winter Meeting of the Canadian Mathematical Society ``Geometric Functional Analysis: Analytic, Discrete, and Probabilistic Aspects'' in Montreal, Canada: \emph{The Minkowski problem in Gaussian probability space}.}
+\talk{2023 Dec.}{Beijing Technology and Business University (virtual): \emph{The Minkowski problem in Gaussian probability space}.}
+\talk{2023 Jun.}{INdAM Meeting ``Convex Geometry---Analytic Aspects'' in Cortona, Italy: \emph{The Minkowski problem in Gaussian probability space} (\textbf{main speaker}).}
+\talk{2023 Jun.}{Summer Meeting of the Canadian Mathematical Society ``Interactions of discrete and convex geometry with analysis and combinatorics'' in Ottawa, Canada: \emph{The Minkowski problem in Gaussian probability space}.}
+\talk{2023 May.}{Southwest University (virtual): \emph{The dual Minkowski problem}. (3-hour short lecture)}
+\talk{2023 May.}{Chinese Academy of Sciences (virtual): \emph{The Minkowski problem in Gaussian probability space}.}
+\talk{2022 Dec.}{Shanghai University (virtual): \emph{Dual curvature measures for log-concave functions}.}
+\talk{2022 Dec.}{Beihang University (virtual): \emph{Dual curvature measures for log-concave functions}.}
+\talk{2022 Dec.}{Shanxi Normal University (virtual): \emph{Dual curvature measures for log-concave functions}.}
+\talk{2022 Nov.}{Cornell University: \emph{Dual curvature measures for log-concave functions}.}
+\talk{2022 Sep.}{ICERM ``Harmonic Analysis and Convexity'': \emph{Dual curvature measures for log-concave functions}.}
+\talk{2021 Sep.}{Syracuse University: \emph{Mass transport problem on the unit sphere via Gauss map}.}
+\talk{2021 May.}{Jilin Normal University (virtual): \emph{Mass transport problem on the unit sphere via Gauss map}.}
+\talk{2021 Mar.}{Syracuse University (virtual, colloquium): \emph{Recovering the shapes of convex bodies}.}
+\talk{2021 Feb.}{Florida International University (virtual, colloquium): \emph{Recovering the shapes of convex bodies}.}
+\talk{2021 Feb.}{University of Georgia (virtual, colloquium): \emph{Recovering the shapes of convex bodies}.}
+\talk{2021 Jan.}{UC San Diego (virtual): \emph{Mass transport problem on the unit sphere via Gauss map}.}
+\talk{2021 Jan.}{UC Santa Cruz (virtual, colloquium): \emph{Recovering the shapes of convex bodies}.}
+\talk{2020 Oct.}{AMS special session ``Convexity and Probability in High Dimensions'' (virtual): \emph{The Minkowski problem in Gaussian probability space}.}
+\talk{2020 Aug.}{University of Connecticut (virtual): \emph{Reconstruction of convex bodies via Gauss map}.}
+\talk{2019 Jun.}{International Congress of Chinese Mathematicians, 45-minute talk: \emph{The dual Minkowski problem for $o$-symmetric convex bodies}.}
+\talk{2019 Jun.}{Fudan University: \emph{The dual Minkowski problem for $o$-symmetric convex bodies}.}
+\talk{2019 Jun.}{Tongji University: \emph{The dual Minkowski problem for $o$-symmetric convex bodies}.}
+\talk{2019 Jun.}{Shanghai University: \emph{The dual Minkowski problem for $o$-symmetric convex bodies}.}
+\talk{2019 Jun.}{Hunan University, lecture series: \emph{An introduction to Minkowski-type problems in convex geometry}.}
+\talk{2019 May.}{AIM workshop ``Symmetry and convexity in geometric inequalities'': \emph{The even dual Minkowski problem for integer indices}.}
+\talk{2019 Jan.}{University of Connecticut, PDE and Differential Geometry Seminar: \emph{The Gauss image problem}.}
+\talk{2018 Mar.}{AMS special session ``Probability in Convexity and Convexity in Probability'' at Ohio State University: \emph{The Aleksandrov problem and its recent development}.}
+\talk{2017 Dec.}{St. John's University: \emph{Minkowski problems and Monge--Amp\`{e}re-type equations}.}
+\talk{2017 Sept.}{CUNY Graduate Center, Geometric Analysis Seminar: \emph{Minkowski-type problems in convex geometry}.}
+\talk{2017 Feb.}{Case Western Reserve University, Analysis \& Probability Seminar: \emph{On the dual Minkowski problem}.}
+\talk{2017 Feb.}{Kent State University, Measure Theory Seminar: \emph{The dual Minkowski problem and its solution}.}
+\talk{2015 Sep.}{CMO workshop ``Affine Geometric Analysis'' at Oaxaca, Mexico: \emph{On {$L_p$}-affine surface area and curvature measures}.}
+\end{longtable}
+
+\cvsection{Courses Taught}
+
+\begin{longtable}{
+@{\hspace{0.10in}}
+>{\raggedleft\arraybackslash}p{0.50in}
+@{\hspace{0.10in}}
+>{\raggedleft\arraybackslash}p{0.50in}
+@{\hspace{0.15in}}
+>{\raggedright\arraybackslash}p{\dimexpr\linewidth-1.35in\relax}
+@{}
+}
+\endfirsthead
+\multicolumn{3}{@{}l}{\emph{Courses Taught (continued)}}\\[2pt]
+\endhead
+\multicolumn{3}{@{}l}{\textbullet\ Syracuse University}\\[1pt]
+Spring & 2026 & MAT-602 Fundamentals of Analysis II\\
+Fall & 2025 & MAT-296 Calculus II\\
+& & MAT-512 Introduction to Real Analysis II\\
+Spring & 2025 & MAT-412 Introduction to Real Analysis I\\
+& & MAT-800 Topics in Analysis: An introduction to convex geometric analysis\\
+Fall & 2024 & on research leave\\
+Spring & 2024 & MAT-602 Fundamentals of Analysis II\\
+Fall & 2023 & MAT-412 Introduction to Real Analysis I\\
+Spring & 2023 & MAT-602 Fundamentals of Analysis II\\
+Fall & 2022 & MAT-512 Introduction to Real Analysis II\\
+Spring & 2022 & MAT-296 Calculus II\\
+Fall & 2021 & MAT-296 Calculus II\\[2pt]
+\multicolumn{3}{@{}l}{\textbullet\ Massachusetts Institute of Technology}\\[1pt]
+Spring & 2021 & 18.02 Calculus (recitation leader)\\
+Fall & 2020 & 18.100Q Communication Intensive Real Analysis\\
+Spring & 2020 & 18.03 Differential Equations (recitation leader)\\
+Fall & 2019 & 18.100Q Communication Intensive Real Analysis\\
+Spring & 2019 & 18.03 Differential Equations (recitation leader)\\
+Fall & 2018 & 18.01A/18.02A Calculus (recitation leader)\\[2pt]
+\multicolumn{3}{@{}l}{\textbullet\ St. John's University}\\[1pt]
+Spring & 2018 & MTH-1260 Pharmacy Calculus; MTH-1320 Business Calculus\\
+Fall & 2017 & MTH-1250 Pharmacy Statistics; MTH-1300 College Algebra\\
+\end{longtable}
+
+\cvsection{Professional Services}
+
 \begin{itemize}
-\item 2026 Jun. Brunn-Minkowski Theories conference at Shanghai, China: Minkowski problems inspired by Lutwak-Yang-Zhang.
-\item 2026 Apr. The online Geometric and Functional Inequalities and Applications seminar: SL$(n)$-invariant isoperimetric and Minkowski problems
-\item 2026 Mar. Binghamton University, Analysis Seminar: SL$(n)$-invariant isoperimetric and Minkowski problems.
-\item 2025 Oct. AMS Fall Central Sectional Meeting at St. Louis: Affine area measures.
-\item 2024 Dec. MFO--Oberwolfach workshop ``Convex Geometry and its Applications'' at Oberwolfach, Germany: Growth rate of surface area measures for $C$-asymptotic sets.
-\item 2024 May. Convex Geometry and Related PDEs conference at Changsha, China: On the geometry of log-concave functions.
-\item 2023 Dec. Winter meeting of Canadian Mathematical Society at Montreal: The Minkowski problem in Gaussian probability space.
-\item 2023 Dec. Beijing Technology and Business University (virtual):  The Minkowski problem in Gaussian probability space. 
-\item 2023 Jun. INdAM Meeting ``Convex Geometry - Analytic Aspects'' at Cortona, Italy: The Minkowski problem in Gaussian probability space. (\textbf{main speaker})
-\item 2023 Jun. Summer Meeting of Canadian Mathematical Society at Ottawa: The Minkowski problem in Gaussian probability space.
-\item 2023 May. Southwest University (virtual): The dual Minkowski problem. (3-hour short lecture)
-\item 2023 May. Chinese Academy of Sciences (virtual): The Minkowski problem in Gaussian probability space.
-\item 2022 Dec. Shanghai University (virtual): Dual curvature measures for log-concave functions.
-\item 2022 Dec. Beihang University (virtual): Dual curvature measures for log-concave functions.
-\item 2022 Dec. Shanxi Normal University (virtual): Dual curvature measures for log-concave functions.
-\item 2022 Nov. Cornell University: Dual curvature measures for log-concave functions.
-\item 2022 Sep. ICERM: Dual curvature measures for log-concave functions.
-\item 2021 Sep. Syracuse University: Mass transport problem on the unit sphere via Gauss map.
-\item 2021 May  Jilin Normal University (virtual): Mass transport problem on the unit sphere via Gauss map.
-\item 2021 Mar. Syracuse University (virtual, colloquium): Recovering the shapes of convex bodies.
-\item 2021 Feb. Florida International University (virtual, colloquium): Recovering the shapes of convex bodies.
-\item 2021 Feb. University of Georgia (virtual, colloquium): Recovering the shapes of convex bodies.
-\item 2021 Jan. UC San Diego (virtual):  Mass transport problem on the unit sphere via Gauss map. 
-\item 2021 Jan. UC Santa Cruz (virtual, colloquium): Recovering the shapes of convex bodies.
-\item 2020 Oct.  AMS special session (virtual): The Minkowski problem in Gaussian probability space.
-\item 2020 Aug. University of Connecticut (virtual): Reconstruction of convex bodies via Gauss map.
-\item 2019 Jun. International Congress of Chinese Mathematicians, 45-min talk: The dual Minkowski problem for $o$-symmetric convex bodies.
-\item 2019 Jun. Fudan University: The dual Minkowski problem for $o$-symmetric convex bodies.
-\item 2019 Jun. Tongji University: The dual Minkowski problem for $o$-symmetric convex bodies.
-\item 2019 Jun. Shanghai University: The dual Minkowski problem for $o$-symmetric convex bodies.
-\item 2019 Jun. Hunan University: lecture series: An Introduction to Minkowski-type problems in convex geometry.
-\item 2019 May. AIM workshop: The even dual  Minkowski problem for integer indices.
-\item 2019 Jan. University of Connecticut, PDE and Differential Geometry Seminar: The Gauss image problem. 
-\item 2018 Mar. AMS special session at Ohio State University: The Aleksandrov problem and its recent development.
-\item 2017 Dec. St. John's University: Minkowski problems and Monge-Amp\`{e}re type equations.
-\item 2017 Sept. CUNY Graduate Center, Geometric Analysis Seminar: Minkowski-type problems in convex geometry.
-\item 2017 Feb. Case Western Reserve University, Analysis \& Probability Seminar: On the dual Minkowski problem.
-\item 2017 Feb. Kent State University, Measure Theory Seminar: The dual Minkowski problem and its solution.
-\item 2015 Sep. Oaxaca, Mexico (CMO workshop): On {$L_p$}-affine surface area and curvature measures. 
-\end{itemize}
 
-{\large\textbf{Courses Taught}}
+		\item[] \textbf{Grant review}
+	\item NSF panelist 2025
+	\item NSF ad-hoc reviewer 2025
+		\item[]\textbf{Committee services}
+	\item Summer Working Group on Calculus Curriculum, Department of Mathematics, Syracuse University, Summer 2026
 
-\begin{itemize}
-\item Syracuse University
+	This working group presents a department-wide effort to improve the students' learning experience and outcomes in the calculus sequence. In Summer 2026, I was a member of this group. In this group, we developed shared expectations for course content, assessment, recitation, grading as well as pedagogy in order to support instructors and teaching assistants, and reduce variation in student outcomes across sections. Its work included exam-construction guidelines, standardized recitation and quiz materials, common grading practices, and long-term curriculum review.
 
-\begin{tabular}{rll}
-	Spring & 2026: &MAT-602 Fundamentals of Analysis II\\
-Fall & 2025: &MAT-296 Calculus II\\
-&& MAT-512 Introduction to Real Analysis II\\
-Spring &2025:  &MAT-412 Introduction to Real Analysis I\\
-& & MAT-800 Topics in Analysis\\
-&& \phantom{sdasdsada} An introduction to convex geometric analysis\\
-Fall &2024: &on research leave\\
-Spring &2024: &MAT-602 Fundamentals of Analysis II\\
-Fall &2023:  &MAT-412 Introduction to Real Analysis I\\
-Spring &2023:  &MAT-602 Fundamentals of Analysis II\\
-Fall & 2022: &MAT-512 Introduction to Real Analysis II\\
-Spring & 2022: & MAT-296 Calculus II\\
-Fall & 2021: & MAT-296 Calculus II
-\end{tabular}
-\item Massachusetts Institute of Technology
-
-\begin{tabular}{rll}
-Spring & 2021: & 18.02 Calculus (recitation leader)\\
-Fall & 2020: & 18.100Q Communication Intensive Real Analysis\\
-Spring & 2020: & 18.03 Differential Equations (recitation leader)\\
-Fall & 2019: & 18.100Q Communication Intensive Real Analysis\\
-Spring & 2019: & 18.03 Differential Equations (recitation leader)\\
-Fall & 2018: & 18.01A/18.02A Calculus (recitation leader)
-\end{tabular}
-
-\item St. John's University
-
-\begin{tabular}{rll}
-Spring &2018: & MTH-1260 Pharmacy Calculus; MTH-1320 Business Calculus\\
-Fall & 2017: & MTH-1250 Pharmacy Statistics; MTH-1300 College Algebra
-\end{tabular}
-\end{itemize}
-
-{\large\textbf{Professional Services}}
-
-\begin{itemize}
-
-	\item[-] \textbf{Grant review}
-	\item NSF CAREER panelist, 2025--2026
-	\item NSF ad-hoc reviewer, 2025
-	\item[-]\textbf{Committee services}
-	\item Graduate Committee, Syracuse University, Fall 2025 -- Spring 2026
+	\item Graduate Committee, Department of Mathematics, Syracuse University, Fall 2025 -- Spring 2026
 	\item External Ph.D. thesis examiner for Xia Zhou, Memorial University of Newfoundland, Canada, Summer 2025
 	\item External Ph.D. thesis examiner for Wen Ai, Memorial University of Newfoundland, Canada, Spring 2025
-	\item Ph.D. thesis defense committee member for Jesse Hulse, Syracuse University, Spring 2025
-	\item Applied Math hiring committee, Syracuse University, Fall 2023
-	\item Probability hiring committee, Syracuse University, Fall 2022
-	\item[-] \textbf{Conference/workshop organization}
+	\item Ph.D. thesis defense committee member for Jesse Hulse, Department of Mathematics, Syracuse University, Spring 2025
+	\item Applied Math hiring committee, Department of Mathematics, Syracuse University, Fall 2023
+	\item Probability hiring committee, Department of Mathematics, Syracuse University, Fall 2022
+		\item[] \textbf{Conference/workshop organization}
 
-	\item Co-organizer of the \emph{Algebra Workshop for MAT-295}, Syracuse University, Fall 2025 -- present.
-	
-	In recent years, there has been a nation-wide trend of more students struggling with Calculus courses due to weak background in algebra. Literature shows that a remedial prerequisite course in algebra might not be particularly effective. 
+	\item Co-organizer of the \emph{Algebra Workshop for MAT-295}, Department of Mathematics, Syracuse University, Fall 2025 -- present.
 
-	This workshop is designed to provide students enrolled in MAT-295 Calculus I at Syracuse University with \emph{just-in-time} algebra support. The idea is to have students brush up their relevant algebra skills to be used in the next Calculus Lecture. The workshop is co-organized by Pawel Grzegrzolka and myself, led by an undergraduate student, and funded by my NSF CAREER grant.
+	In recent years, there has been a nationwide trend of more students struggling with calculus courses because of weak backgrounds in algebra. The literature shows that a remedial prerequisite course in algebra may not be particularly effective.
 
-	\item Co-organizer of the \emph{Analysis Seminar}, Syracuse University, March 2025 -- present.
+	This workshop is designed to provide students enrolled in MAT-295 Calculus I at Syracuse University with \emph{just-in-time} algebra support. The goal is to help students review the algebra skills they will use in the next calculus lecture. The workshop is co-organized by the Calculus coordinator and me, led by an undergraduate student, and funded by my NSF CAREER grant.
+
+	\item Co-organizer of the \emph{Analysis Seminar}, Department of Mathematics, Syracuse University, March 2025 -- present.
 
 	\item Co-organizer of the AMS Special Session on \emph{Probabilistic and Analytic Aspects in Convexity}, October 2024.
 	\item Co-organizer of the Special Session \emph{Interplay Between Analysis and Convexity} in the 2023 Summer Meeting of the Canadian Mathematical Society
-	
-	
-	\item[-] \textbf{Journal referee}
-		\item[]I refereed/provided quick opinion \emph{multiple times} for the following journals: 
-		\begin{itemize}
-			\item Advances in Applied Mathematics
-			\item Advances in Geometry
-			\item Advances in Mathematics
-			\item Advanced Nonlinear Studies
-			\item Bulletin des sciences math\'ematiques Calculus of Variations and Partial Differential Equations
-			\item Discrete and Continuous Dynamical Systems Series S
-			\item Indagationes Mathematicae
-			\item International Mathematics Research Notices
-			\item Journal of Differential Geometry
-			\item Journal of Differential Equations
-			\item Journal of Geometric Analysis
-			\item Journal of Mathematical Analysis and Applications
-			\item Journal of the European Mathematical Society
-			\item Mathematische Annalen
-			\item Nonlinear Analysis
-			\item Proceedings of the American Mathematical Society
-			\item Rocky Mountain Journal of Mathematics
-			\item SCIENCE CHINA Mathematics
-			\item Transactions of the American Mathematical Society
-		\end{itemize}
 
 
-I also write reviews for \emph{MathSciNet} and \emph{zbMATH}.
-\item[-]Community service
+		\item[] \textbf{Journal referee}
+		\item[]I refereed papers or provided quick opinions for the following journals:
 
-\item Professional development mini-course for local high school teachers, \emph{From Shape Discovery to Daily Life: bees cats, engineering, medicine, ...}, October--November, 2025.
+		\vskip 0.1in
 
-I developed and taught a mini-course for local high school teachers in the central NYS area.
-	
-	This 6-hour mini-course was attended by around 25 local high school teachers. Most of them were recruited from the CNY Master Teacher Program, except for two recruited by myself. This mini-course conveys my research to high school teachers in an accessible way. The goal is to show the teachers (and consequently their students) that Mathematics is much more than a set of formulas, and that just like any other sciences, one can explore, discover, and experiment in Mathematics.
-	
+\begin{itemize}[label=\textbullet,leftmargin=1.4em,itemsep=-1pt,topsep=0pt,parsep=0pt,partopsep=0pt]
+\item Advances in Applied Mathematics
+\item Advances in Geometry
+\item Advances in Mathematics
+\item Advanced Nonlinear Studies
+\item Bulletin des sciences math\'ematiques
+\item Calculus of Variations and Partial Differential Equations
+\item Discrete and Continuous Dynamical Systems Series S
+\item Indagationes Mathematicae
+\item International Mathematics Research Notices
+\item Journal de Math\'ematiques Pures et Appliqu\'ees
+\item Journal of Differential Geometry
+\item Journal of Differential Equations
+\item Journal of Geometric Analysis
+\item Journal of Mathematical Analysis and Applications
+\item Journal of the European Mathematical Society
+\item Journal of the London Mathematical Society
+\item Mathematische Annalen
+\item Nonlinear Analysis
+\item Proceedings of the American Mathematical Society
+\item Rocky Mountain Journal of Mathematics
+\item SCIENCE CHINA Mathematics
+\item Transactions of the American Mathematical Society
+\end{itemize}
+
+
+\Needspace{8\baselineskip}
+\item[] \textbf{Community service}
+
+\item Professional development mini-course for local high school teachers, \emph{From Shape Discovery to Daily Life: Bees, Cats, Engineering, Medicine, ...}, October--November 2025.
+
+I developed and taught a mini-course for local high school teachers in Central New York.
+
+	This 6-hour mini-course was attended by around 25 local high school teachers. Most were recruited from the CNY Master Teacher Program, and I recruited two directly. This mini-course conveys my research to high school teachers in an accessible way. The goal is to show the teachers (and, consequently, their students) that mathematics is much more than a set of formulas and that, just as in any other science, one can explore, discover, and experiment in mathematics.
+
 	This mini-course was well-received by the teachers based on a survey conducted after the course.
 
-\item  Presenter of the ``Be the Scientist'' program at the \emph{Milton J. Rubenstein Museum of Science and Technology} (MOST) in Syracuse, NY, May, 2025.
+\item Presenter of the ``Be the Scientist'' program at the \emph{Milton J. Rubenstein Museum of Science and Technology} (MOST) in Syracuse, NY, May 2025.
 
-\item Together with Dr. Ruth Chen and Cory Monahan, we designed and supervised a community outreach program that provided  Grade 2--8 students (most of which from under-represented population) at \emph{the North Side Learning Center} weekly fun problems in Mathematics that intend to expose the fun and exploratory side of Mathematics to students early in their educational career. This program took place during the months of July and August, 2024. 
+\item I designed and supervised a community outreach program that provided students in Grades 2--8 at \emph{the North Side Learning Center} with weekly mathematics problems intended to introduce them to the fun and exploratory side of mathematics early in their education. This program took place in July and August 2024.
 \end{itemize}
 
-{\large\textbf{Graduate student advising}}
+\cvsection{Graduate Student Advising}
 \begin{itemize}
-	\item Cory Monahan (Ph.D. student), since 2024
-	\item Xinfa Meng (Ph.D. student), informally since 2024
+	\item \makebox[1.5in][l]{Cory Monahan,}\makebox[0.75in][l]{Ph.D.}(expected Spring 2028)
+	\item \makebox[1.5in][l]{Xinfa Meng,}\makebox[0.75in][l]{Ph.D.}(expected Spring 2029)
 \end{itemize}
 
 
-{\large\textbf{Post-doc mentoring}}
+\cvsection{Postdoctoral Mentoring}
 \begin{itemize}
-	\item Auttawich Manui (will arrive at Syracuse University in Fall 2026)
-	\item Sudan Xing, 2023, currently Assistant Professor at University of Arkansas at Little Rock
+	\item Auttawich Manui, Fall 2026 -- Spring 2028
+	\item Sudan Xing, 2023, currently an Assistant Professor at University of Arkansas at Little Rock
 \end{itemize}
- 
+
 \end{document}
